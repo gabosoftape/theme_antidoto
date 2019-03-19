@@ -766,8 +766,11 @@
                       </div>
                     </form>                  
                 </div> 
-            </div>                  
+            </div> 
+            <div class="col-md-3">
+
             </div>
+           </div>
             <div class="row" id="product_more_info">
             <div class="col-md-9 pd_info">
                 <div class="pd-more-info">
@@ -823,7 +826,7 @@
     </div>
   </xpath>
 </template>
- <template id="recommended_products" inherit_id="theme_laze.product_details">
+ <template id="recommended_products" inherit_id="theme_laze.product_details" customize_show="True" name="Recommended Products">
   <xpath expr="//div[hasclass('col-md-3')]" position="inside">
 		    <div class="sidebar-slider sidebar-block" t-if="product.alternative_product_ids">
 		        <div class="sb-title">
@@ -938,8 +941,7 @@
     </template>
 
     <template id="product_details_advertice" inherit_id="theme_laze.product_details" active="False" customize_show="True" name="Advertise Slider">
-        <xpath expr="//div[@id='product_information']//div[hasclass('col-md-5')]" position="after">
-            <div class="col-md-3">
+        <xpath expr="//div[@id='product_information']//div[hasclass('col-md-3')]" position="inside">
                 <div id="as-add-slider" class="carousel s_add_slide slide as-add-slider" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -969,7 +971,6 @@
                         </a>
                     </div>
                 </div>
-            </div>
         </xpath>
     </template>
     <template id="static_html_add" inherit_id="theme_laze.product_details" active="False" customize_show="True" name="Static Content Block">

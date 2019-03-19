@@ -2,7 +2,7 @@
     'name': 'Theme Laze',
     'category': 'Theme/Ecommerce',
     'summary': "Theme Laze is a Odoo theme with advanced ecommerce feature, extremely customizable and fully responsive. It's suitable for any e-commerce sites. Start your Odoo store right away with The Laze theme",
-    'version': '6.1',
+    'version': '6.2',
     'author': 'Atharva System',
 	'website' : 'http://www.atharvasystem.com',
 	'license' : 'OPL-1',
